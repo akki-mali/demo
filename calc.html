@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>calc</title>
+        <script src="myscript.js"></script>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <h3>calculator</h3>
+       <div class="calc" >
+        <form  action="/action_page.php">
+            first number:
+            <input type="text" id="1stnumber">
+            second number:<input type="text" id="2ndnumber">
+            
+            <input type="button" value="addition" onclick="addition()">
+            <input type="button" onclick="subtraction()" value="subtraction"> 
+            <input type="button" value="multiply" onclick="multiply()">
+            <input type="button" value="division" onclick="division()">
+           <p >result:</p>
+            <span id="result"></span>
+           </form>
+        </div>
+
+        
+    </body>
+</html>
